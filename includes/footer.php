@@ -1,20 +1,17 @@
-	
-    <!-- Footer Area Start -->
-    <footer class="footer" id="footer">
-	
+<!-- Footer Area Start -->
+<footer class="footer" id="footer">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-lg-4">
                 <div class="footer-widget about-widget">
                     <div class="fotter-logo">
-                        <img src="uploads/logo/<?= $logo_image  ?>" alt=""style="width:250px">
+                        <img src="Uploads/logo/logo1.png" alt="DollarPay Logo" style="width:250px">
                     </div>
                     <div class="about-content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nemo error sit voluptatem consectetur repellat.
+                            DollarPay is your trusted platform for wealth creation and investment opportunities.
                         </p>
                     </div>
-                
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4">
@@ -40,7 +37,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fas fa-angle-double-right"></i>investors
+                                <i class="fas fa-angle-double-right"></i>Investors
                             </a>
                         </li>
                         <li>
@@ -59,12 +56,12 @@
                     <ul class="link-list">
                         <li>
                             <a href="#">
-                                <i class="fas fa-angle-double-right"></i> Terms
+                                <i class="fas fa-angle-double-right"></i>Terms
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fas fa-angle-double-right"></i> Privacy
+                                <i class="fas fa-angle-double-right"></i>Privacy
                             </a>
                         </li>
                         <li>
@@ -92,15 +89,8 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="left-area">
-                        <?php
-                        $rights = "SELECT c_rights FROM settings";
-                        $rights_query = mysqli_query($con, $rights);
-
-                        $row = mysqli_fetch_array($rights_query);
-                        $rights = $row['c_rights'];
-                        ?>
                         <p>
-                            <?= $rights ?>
+                            © 2025 DollarPay. All Rights Reserved.
                         </p>
                     </div>
                 </div>
@@ -136,12 +126,8 @@
             </div>
         </div>
     </div>
-</footer> 
+</footer>
 <!-- Footer Area End -->
-
-
-
-
 
 <!-- jquery -->
 <script src="assets/js/jquery.js"></script>
@@ -169,6 +155,4 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 </body>
 
-
-
-</html>
+			    </html>
