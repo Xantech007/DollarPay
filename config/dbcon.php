@@ -2,9 +2,9 @@
 //connection to mysql database
 
 $host = "localhost";  //database host
-$username = "root";  //database user
-$password = "";    //database password
-$database = "broker1";  //database name
+$username = "dolltkvu_user1";  //database user
+$password = "Xander24427279";    //database password
+$database = "dolltkvu_db";  //database name
 
 $con = mysqli_connect("$host","$username","$password","$database");
 
@@ -12,7 +12,6 @@ if(!$con)
 {
     echo 'error in connection';
 }
-
 
 
 
